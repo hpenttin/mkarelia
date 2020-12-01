@@ -1,0 +1,146 @@
+a.app:any-link {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: left;
+  color: #81d742;
+  font-size: max(3vw, 18px);
+  font-weight: 10;
+  margin-left: 2%;
+}
+
+.slogan {
+  font-size: max(2vw, 16px);
+  font-weight: 10;
+  margin-left: 2%;
+}
+
+.ekaotsikko {
+  font-size: max(4vw, 18px);
+  font-weight: 40;
+  text-align: center;
+  padding: 30px;
+  margin: 4%;
+  margin-top: 5%;
+}
+
+.esittely {
+  font-size: max(2vw, 16px);
+  font-weight: 10;
+  text-align: center 80%;
+  padding: 30px;
+  margin: 5%;
+  line-height: 2;
+}
+.navbar {
+  margin-bottom: 0 !important;
+}
+
+.marginaali {
+  font-size: max(2vw, 16px);
+  font-weight: 10;
+  text-align: left;
+  padding: 30px;
+  margin: 5%;
+  margin-top: 0%;
+  line-height: 2;
+}
+
+.kappale {
+  background-color: #eeeeee;
+  margin: 0%;
+}
+
+.center {
+  display: inline-block;
+  padding: 2px;
+}
+
+.imageholder {
+  text-align: center;
+}
+
+.kuva {
+  background-color: black;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: unhidden;
+  position: relative;
+  width: 50%;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  transition: 0.5s ease;
+  opacity: 0.5;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hoover:hover .kuva {
+  filter: brightness(30%);
+}
+
+.hoover:hover .middle {
+  opacity: 1;
+}
+
+.vinkit {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 0%;
+  margin-bottom: 7%;
+}
+.fontti {
+  font-size: max(1, 5vw, 16px) !important;
+  font-family: "Source Sans Pro", sans-serif !important;
+  color: #81d742;
+}
+
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #81d742;
+  font-size: 22px;
+  font-weight: 5;
+}
+
+#imgcontainer {
+  opacity: 0.5;
+  background-color: Black;
+  z-index: 10;
+}
+
+#imgcontainer img {
+  z-index: 5;
+}
+
+/* Create two equal columns that floats next to each other */
+.yhteystiedot {
+  margin-left: 5%;
+  margin-right: 2%;
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.lomake {
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 0%;
+  margin-bottom: 7%;
+}
